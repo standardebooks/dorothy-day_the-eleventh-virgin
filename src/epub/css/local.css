@@ -3,6 +3,7 @@
 
 /* Begin poetry CSS */
 [epub|type~="z3998:verse"] p,
+[epub|type~="z3998:poem"] p,
 [epub|type~="z3998:hymn"] p,
 [epub|type~="z3998:song"] p{
 	text-align: initial;
@@ -10,6 +11,7 @@
 }
 
 [epub|type~="z3998:verse"] p > span,
+[epub|type~="z3998:poem"] p > span,
 [epub|type~="z3998:hymn"] p > span,
 [epub|type~="z3998:song"] p > span{
 	display: block;
@@ -18,15 +20,22 @@
 }
 
 [epub|type~="z3998:verse"] p > span + br,
+[epub|type~="z3998:poem"] p > span + br,
 [epub|type~="z3998:hymn"] p > span + br,
 [epub|type~="z3998:song"] p > span + br{
 	display: none;
 }
 
 [epub|type~="z3998:verse"] p + p,
+[epub|type~="z3998:poem"] p + p,
 [epub|type~="z3998:hymn"] p + p,
 [epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
+}
+
+p span.i1{
+	padding-left: 2em;
+	text-indent: -1em;
 }
 /* End poetry CSS */
 
@@ -115,3 +124,9 @@ section[epub|type~="z3998:scene"] > p{
 	width: 75%;
 }
 /* End drama CSS */
+
+#chapter-2-2 header p{
+	font-variant: small-caps;
+	margin: 1em;
+	text-align: center;
+}
