@@ -26,9 +26,7 @@
 	display: none;
 }
 
-[epub|type~="z3998:verse"] p + p,
 [epub|type~="z3998:poem"] p + p,
-[epub|type~="z3998:hymn"] p + p,
 [epub|type~="z3998:song"] p + p{
 	margin-top: 1em;
 }
@@ -59,7 +57,6 @@ table:not([epub|type~="z3998:drama"]) tr:last-of-type td:last-of-type{
 /* End table CSS */
 
 /* Begin drama CSS */
-[epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
 	margin: 1em auto;
@@ -98,12 +95,6 @@ table[epub|type~="z3998:drama"]{
 	font-style: italic;
 }
 
-[epub|type~="z3998:stage-direction"] [epub|type~="z3998:persona"],
-em [epub|type~="z3998:persona"],
-i [epub|type~="z3998:persona"]{
-	font-style: normal;
-}
-
 [epub|type~="z3998:stage-direction"]::before{
 	content: "(";
 	font-style: normal;
@@ -116,11 +107,6 @@ i [epub|type~="z3998:persona"]{
 
 [epub|type~="z3998:persona"]{
 	font-variant: all-small-caps;
-}
-
-section[epub|type~="z3998:scene"] > p{
-	margin: 1em auto;
-	width: 75%;
 }
 /* End drama CSS */
 
