@@ -49,17 +49,16 @@ table:not([epub|type~="z3998:drama"]) td:last-child:not([colspan]){
 	font-variant-numeric: tabular-nums;
 }
 
-
 table:not([epub|type~="z3998:drama"]) td:not([colspan]){
 	padding-left: 1em;
 }
 
 table:not([epub|type~="z3998:drama"]) tr:last-of-type td:last-of-type{
-  border-top: 1px solid;
+	border-top: 1px solid;
 }
 /* End table CSS */
 
-/* Begin drama CSS*/
+/* Begin drama CSS */
 [epub|type~="z3998:drama"] table,
 table[epub|type~="z3998:drama"]{
 	border-collapse: collapse;
