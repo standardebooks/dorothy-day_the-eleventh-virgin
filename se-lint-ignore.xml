@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<se-lint-ignore>
+	<file path="chapter-3-4.xhtml">
+		<ignore>
+			<code>s-060</code>
+			<reason>The text in question is both in Italian and a song name, so italics are appropriate.</reason>
+		</ignore>
+	</file>
+	<file path="local.css">
+		<ignore>
+			<code>c-008</code>
+			<reason>Unfortunately, none of the standard CSS selectors work well for this case. We want to target the second (and last) em tag of the whole chapter, but :nth-of-type and :last-of-type are relative to the parent of the em tag, which will be a p tag. Therefore, in order to target this tag without using a special class you would have to use a p:nth-of-type selector, which is unreadable and would involve counting the exact number of paragraphs. Using a custom class here also has some ancillary benefits since “underlined” has some semantic meaning appropriate to what is being described in the text.</reason>
+		</ignore>
+	</file>
+</se-lint-ignore>
