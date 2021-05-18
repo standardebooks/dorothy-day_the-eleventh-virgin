@@ -51,7 +51,7 @@ table:first-of-type tr td{
 	padding-left: 1em;
 }
 
-table:first-of-type tr:last-of-type td:last-of-type{
+table:first-of-type tfoot td:last-of-type{
 	border-top: 1px solid;
 }
 /* End table CSS */
