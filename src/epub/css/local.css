@@ -38,20 +38,20 @@ p span.i1{
 /* End poetry CSS */
 
 /* Begin table CSS */
-table:not([epub|type~="z3998:drama"]){
+table:first-of-type{
 	margin: 1em auto 1em auto;
 }
 
-table:not([epub|type~="z3998:drama"]) td:last-child:not([colspan]){
+table:first-of-type td:last-child{
 	text-align: right;
 	font-variant-numeric: tabular-nums;
 }
 
-table:not([epub|type~="z3998:drama"]) td:not([colspan]){
+table:first-of-type tr td{
 	padding-left: 1em;
 }
 
-table:not([epub|type~="z3998:drama"]) tr:last-of-type td:last-of-type{
+table:first-of-type tr:last-of-type td:last-of-type{
 	border-top: 1px solid;
 }
 /* End table CSS */
