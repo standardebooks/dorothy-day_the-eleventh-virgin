@@ -153,7 +153,7 @@ p[epub|type="z3998:valediction"]{
 	list-style-type: none;
 }
 
-#chapter-3-3 em.underlined{
-	font-style: normal;
+#chapter-3-3 strong{
+	font-variant: normal;
 	text-decoration: underline;
 }
