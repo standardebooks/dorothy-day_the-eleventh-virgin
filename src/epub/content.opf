@@ -41,7 +41,7 @@
 		<dc:source>https://catholicworker.org/tag/the-eleventh-virgin</dc:source>
 		<dc:source>https://www.google.com/books/edition/The_Eleventh_Virgin/HhY3AAAAIAAJ</dc:source>
 		<meta property="se:production-notes">This book was originally printed with several misprints, which have been marked in the endnotes. In the cases where it was easy to infer what the missing words in the text were most likely intended to be, they were inserted by the producer. In one paragraph (endnote 2), a more recent book quoting the passage was used to reconstruct the missing words. In another paragraph (endnote 3), a paragraph was cut off and no third source was found to allow for reconstructing the paragraph.</meta>
-		<meta property="se:word-count">72236</meta>
+		<meta property="se:word-count">72230</meta>
 		<meta property="se:reading-ease.flesch">71.14</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/dorothy-day_the-eleventh-virgin</meta>
 		<dc:creator id="author">Dorothy Day</dc:creator>
