@@ -44,7 +44,7 @@
 		<dc:source>https://www.google.com/books/edition/The_Eleventh_Virgin/HhY3AAAAIAAJ</dc:source>
 		<meta property="schema:wordCount">70916</meta>
 		<meta property="schema:educationalLevel">71.14</meta>
-		<meta property="schema:workExample" id="vcs-repository">schema:workExample</meta>
+		<meta id="vcs-repository" property="schema:workExample">schema:workExample</meta>
 		<meta property="rdf:type" refines="#vcs-repository">http://schema.org/SoftwareSourceCode</meta>
 		<link href="https://github.com/standardebooks/dorothy-day_the-eleventh-virgin" refines="#vcs-repository" rel="schema:codeRepository"/>
 		<dc:creator id="author">Dorothy Day</dc:creator>
